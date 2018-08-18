@@ -110,12 +110,9 @@ MarCMD.prototype.getQueue = () => {
 /**
  * start the action handlers
  */
-MarCMD.prototype.start = (marcmd) => {
-    // console.log(marcmd)
+MarCMD.prototype.start = (marcmd) => {    
     let taskList = marcmd.taskList;
-    let funs = marcmd.funRegisted;
-    console.log(taskList)
-    console.log(funs)
+    let funs = marcmd.funRegisted;  
     for (let item in taskList) {
         if (funs[item]) {
             funs[item].callbackFun(taskList[item])
