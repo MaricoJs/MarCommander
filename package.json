@@ -1,0 +1,27 @@
+{
+  "name": "marcmd",
+  "version": "1.0.0",
+  "description": "a nodejs command interactive tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaricoJs/MarCommander.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "command",
+    "command",
+    "tool",
+    "commander"
+  ],
+  "author": "Marico <ok@nongshiye.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaricoJs/MarCommander/issues"
+  },
+  "homepage": "https://github.com/MaricoJs/MarCommander#readme"
+}
