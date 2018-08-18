@@ -1,6 +1,6 @@
 {
   "name": "marcmd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a nodejs command interactive tool",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/MaricoJs/MarCommander/issues"
   },
-  "homepage": "https://github.com/MaricoJs/MarCommander#readme"
+  "homepage": "https://github.com/MaricoJs/MarCommander#readme",
+  "dependencies": {}
 }
